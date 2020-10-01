@@ -3,10 +3,10 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color:black;
+  color:white;
   text-align: center;
   padding-top:140px; 
-  padding-bottom:250px;
+  
   margin-left: 14px;
   margin-right: 14px;
   
@@ -24,4 +24,6 @@
     margin-top: 10%;
     padding-bottom: 20px; 
     
+    
   }
+  
