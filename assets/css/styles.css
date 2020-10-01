@@ -3,7 +3,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color:black;
   text-align: center;
   padding-top:140px; 
   padding-bottom:250px;
@@ -17,4 +17,11 @@
     padding-bottom: 30px;
     padding-top:40px;
     font-family: 'Copse', serif;
+  }
+
+#click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 20px; 
+    
   }
