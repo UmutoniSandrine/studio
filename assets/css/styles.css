@@ -1,0 +1,14 @@
+.main-div{
+  background-image: url('../images/backgrounds/welcome.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:140px; 
+  padding-bottom:250px;
+  margin-left: 14px;
+  margin-right: 14px;
+  
+  font-family: cursive;
+}
