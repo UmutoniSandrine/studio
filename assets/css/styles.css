@@ -102,6 +102,7 @@ body{
   .col-md-3 img{
     width: 200px;
     margin:10px;
+    padding-left:9px;
   }
   #portfolio{
     margin-left:10%;
