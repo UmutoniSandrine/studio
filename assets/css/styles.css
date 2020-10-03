@@ -132,3 +132,9 @@ body{
     font-family: cursive;
     font-style: normal;
   }
+  /* .form-control::-webkit-input-placeholder { 
+    color: white; 
+  } */
+  .form-control::-webkit-input-placeholder{
+    color: aliceblue;
+  }
