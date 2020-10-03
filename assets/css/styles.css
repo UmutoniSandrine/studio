@@ -108,3 +108,11 @@ body{
     margin-left:10%;
     margin-right: 10%; 
   }
+  .contact{
+    background-image: url('../images/backgrounds/23.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+  }
