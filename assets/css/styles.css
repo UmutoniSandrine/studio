@@ -134,9 +134,9 @@ body{
   }
 
   .form-control::-webkit-input-placeholder{
-    color: aliceblue;
+    background-color: white;
   }
-  #MERGE1{
+  #MERGE0{
     width: 30%;
     margin-left: 18%;
     margin-right: 30px;
