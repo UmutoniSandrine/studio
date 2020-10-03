@@ -1,10 +1,9 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 body{
   padding-left: 100px;
   padding-right: 100px;
 }
-
 
 .main-div{
   background-image: url('../images/backgrounds/welcome.jpg');
@@ -127,11 +126,16 @@ body{
   }
   input[type=text],input[type=email],#comment{
     background:transparent;
-    color: white;
+    /* color: white; */
     font-size: 15px;
     font-family: cursive;
     font-style: normal;
   }
+  input[type=text]::placeholder,input[type=email]::placeholder{
+    /* background:transparent; */
+    color: white;
+  }
+  
   #MERGE1{
     width: 30%;
     margin-left: 18%;
@@ -182,14 +186,20 @@ body{
     margin-bottom: 20px;
     padding-right: 4%;
     
-  
-    
-    
   }
-  ::placeholder{
+  /* .form-control::-webkit-input-placeholder{
     color:white;
+  } */
 
-  }
-  
-
-  
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
