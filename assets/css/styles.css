@@ -150,4 +150,9 @@ body{
     margin-bottom: 20px;
   }
 
-
+  #pro, #dev, #design{
+    display: none;
+    font-family:cursive;
+    font-size: 16px;
+  }
+  
