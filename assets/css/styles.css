@@ -171,6 +171,15 @@ body{
     margin-left:8%;
     margin-right: 16%; 
   }
+ 
+  .col-md-3 img{
+    width:100%px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
   button{
     margin-left: 2%;
     padding-bottom: 30px;
