@@ -185,7 +185,12 @@ body{
     padding-bottom: 30px;
     margin-bottom: 20px;
     /* padding-right: 4%; */
+    margin-left: 20%;
     
+    
+  }
+  #submit{
+    margin-left:20%;
   }
   
 
