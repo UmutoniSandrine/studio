@@ -120,8 +120,14 @@ body{
 
   .contact h2{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-family:cursive;
+  }
+  input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
   }
