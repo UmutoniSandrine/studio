@@ -8,8 +8,8 @@
 	==========================================================================  */
 
 
-(function($, window, document, undefined) {
-	$.fn.formchimp = function(settings) {
+(function ($, window, document, undefined) {
+	$.fn.formchimp = function (settings) {
 		var $form = $(this);
 		var $body = $('body');
 		var actionUrl = $form.attr('action').replace('/post?', '/post-json?').concat('&c=?');
@@ -20,8 +20,8 @@
 			'buttonText': '', 						// The message to be written on the submit button after a successful subscription.
 			'debug': false, 						// Activate debug message in console.
 			'errorMessage': '',						// Set custom error message given when return an error.
-			'onMailChimpSuccess': function() {},	// Callback that fires on success.
-			'onMailChimpError': function() {},		// Callback that fires on errors.
+			'onMailChimpSuccess': function () { },	// Callback that fires on success.
+			'onMailChimpError': function () { },		// Callback that fires on errors.
 			'responseClass': 'mc-response',			// Declare custom element in page for message output. (Set different classes for multiple sign-up forms)
 			'successMessage': '',					// Set a custom success message.
 			'url': actionUrl,						// The mailchip list subscription url, to get the JSONP address just change `post` to `post-json` and append `&c=?` at the end.
@@ -33,7 +33,7 @@
 		$.extend(defaults, settings);
 
 		// On submit
-		$($form).on('submit', function(event) {
+		$($form).on('submit', function (event) {
 			// Disable default action of submit
 			event.preventDefault();
 
@@ -56,7 +56,7 @@
 				data: $(this).serialize(),
 				dataType: 'jsonp'
 
-			}).done(function(data) {
+			}).done(function (data) {
 				// If debug is active
 				if (defaults.debug) {
 					// Log in cosole the Mailchimp data
@@ -67,7 +67,7 @@
 				var responseMessage = data.msg;
 
 				// If the message start with a number and contains "-"
-				if(!isNaN(responseMessage.charAt(0)) && responseMessage.charAt(2) === '-') {
+				if (!isNaN(responseMessage.charAt(0)) && responseMessage.charAt(2) === '-') {
 					// Remove first 3 characters
 					responseMessage = responseMessage.substring(3);
 				}
