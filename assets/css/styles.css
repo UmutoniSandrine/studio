@@ -132,10 +132,6 @@ body{
     font-family: cursive;
     font-style: normal;
   }
-
-  .form-control::-webkit-input-placeholder{
-    background-color: white;
-  }
   #MERGE1{
     width: 30%;
     margin-left: 18%;
