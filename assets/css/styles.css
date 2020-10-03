@@ -155,4 +155,12 @@ body{
     font-family:cursive;
     font-size: 16px;
   }
-  
+  footer{
+    text-align: center;
+    padding-top: 30px;
+   
+    font-family: 'Delius Swash Caps', cursive;
+  }
+  footer p{
+    margin-top: 10px;
+  }
