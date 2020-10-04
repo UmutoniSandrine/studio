@@ -10,51 +10,68 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <script src="./assets/javascript/jquery-3.5.1.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#des").click(function(){
+        $(document).ready(function () {
+            $("#des").click(function () {
                 $(this).hide();
                 $("#design").show();
             });
         });
-        $(document).ready(function(){
-            $("#design").click(function(){
+        $(document).ready(function () {
+            $("#design").click(function () {
                 $(this).hide();
                 $("#des").show();
             });
         });
 
-        $(document).ready(function(){
-            $("#dev-image").click(function(){
+        $(document).ready(function () {
+            $("#dev-image").click(function () {
                 $(this).hide();
                 $("#dev").show();
             });
         });
-        $(document).ready(function(){
-            $("#dev").click(function(){
+        $(document).ready(function () {
+            $("#dev").click(function () {
                 $(this).hide();
                 $("#dev-image").show();
             });
         });
 
-        $(document).ready(function(){
-            $("#pro-image").click(function(){
+        $(document).ready(function () {
+            $("#pro-image").click(function () {
                 $(this).hide();
                 $("#pro").show();
             });
         });
-        $(document).ready(function(){
-            $("#pro").click(function(){
+        $(document).ready(function () {
+            $("#pro").click(function () {
                 $(this).hide();
                 $("#pro-image").show();
             });
         });
-        $(document).ready(function(){
-            $("#work1").mouseover(function(){
-              $("#overlay").show();
-            }).mouseout(function(){
-              $("#overlay").hide();
+
+        $(document).ready(function () {
+            $("#work1").mouseover(function () {
+                $("#overlay1").show();
+            }).mouseout(function () {
+                $("#overlay1").hide();
             });
-          });
+        });
+
+        $(document).ready(function () {
+            $("#work2").mouseover(function () {
+                $("#overlay2").show();
+            }).mouseout(function () {
+                $("#overlay2").hide();
+
+            });
+
+        });
+        
+
+
+
+
+
     </script>
 </head>
 
@@ -88,7 +105,7 @@
     <div class="whatwedo">
         <h2 class="what-we-do font-weight-bold">WHAT WE DO</h2>
         <div class="row">
-            <div class="col-md-4" >
+            <div class="col-md-4">
                 <div id="design">
                     <h2 class="tle">DESIGN</h2>
                     <p>Our design practice offers a full range of services including brand strategy, interaction and
@@ -137,11 +154,11 @@
         <div class="row" id="portfolio">
             <div class="col-md-3" id="work1">
                 <img src="./assets//images//portfolio//work4.jpg" alt="work1">
-                <p id="overlay" class="text">Black Studio</p>
+                <p id="overlay1" class="text">Our Studio</p>
             </div>
             <div class="col-md-3" id="work2">
                 <img src="./assets//images//portfolio//work3.jpg" alt="work2">
-                <p id="overlay2" class="text">Ontario Security</p>
+                <p id="overlay2" class="text">Security</p>
 
             </div>
             <div class="col-md-3" id="work3">
